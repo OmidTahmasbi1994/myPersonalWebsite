@@ -1,0 +1,2450 @@
+body
+{
+    margin: 0px;
+    background-image: url('backgroundimage1.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#container
+{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    max-width: 100%;
+    min-height: 900px;
+}
+#leftpart
+{
+    width:25%;
+}
+#bar
+{
+    position:fixed;
+    top: 13px;
+    left: 28px;
+    font-size: 45px;
+    color: black;
+    cursor: pointer;
+    transition: 0.4s;
+}
+#responsivemenuword
+{
+    display: none;
+}
+#bar:hover
+{
+    color: black;
+    font-size: 50px;
+    transition: 0.4s;
+    transform: rotateZ(90deg);
+}
+#mysidenav
+{
+    position: fixed;
+    top: 0px;
+    left: -100%;
+    width: 20%;
+    min-height: 100%;
+    background-color: rgb(35, 43, 43);
+    border-radius: 0px 3px 3px 0px;
+    transition: 0.7s;
+}
+#mysidenav a
+{
+    display: block;
+    padding-left:8%;
+    padding-top: 40px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: arial,tahoma,sans-serif;
+    color: darkturquoise;
+}
+#mysidenav a:hover
+{
+    color: cyan;
+    font-size: 18px;
+}
+#farsiversion_link
+{
+    cursor: default;
+}
+#mysidenav #farsiversion_span
+{
+    margin-left: 77%;
+    padding: 4px;
+    border-radius: 3px 3px 3px 3px;
+    background-color:darkturquoise;
+    color: rgb(35, 43, 43);
+    font-size: 15px ;
+    cursor: pointer;
+}
+#mysidenav #farsiversion_span:hover
+{
+    background-color:cyan;
+    color: black;
+    font-size: 15px ;
+}
+#mysidenav #closenav 
+{
+    margin-left: 80%;
+    color: darkturquoise;
+    font-size:30px;
+    cursor: pointer;
+}
+#mysidenav #closenav:hover
+{
+    font-size: 30px;
+    color: cyan ;
+}
+#mysidenav #closenav:active
+{
+    color: darkturquoise;
+    font-size:30px;
+}
+#content
+{
+    width: 50%;
+    direction: ltr;
+    white-space: wrap;
+}
+#header
+{
+    float: left;
+    text-align: center;
+    margin-top: 15px;
+    width: 100%;
+    min-height: 55px;
+    border-bottom: 1px solid black;
+}
+#banner
+{
+    text-decoration: none;
+    color: black;
+    font-family: "Times New Roman", tahoma, Verdana,sans-serif;
+    font-size: 54px;
+    letter-spacing: -3px;
+    text-shadow: 6px 5px 30px dimgray;
+}
+#header_inf
+{
+    text-decoration: none;
+    color: black;
+    font-family: tahoma, Verdana,sans-serif;
+    font-size: 21px;
+    letter-spacing: -1px;
+    text-shadow: 6px 5px 30px dimgray;
+}
+#responsivebar
+{
+    display: none;
+}
+#responsivenav
+{
+    display: none;
+}
+#slides
+{
+    clear: both;
+    width: 100%;
+    height:470px;
+    margin-top:76px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 0%;
+    padding-right: 0%;
+    
+}
+#slides img
+{
+    width: 100%;
+    height:470px;
+    border-radius: 2px;
+    display: none;
+}
+#slides img:first-child
+{
+    display: inline;
+}
+#usefullinks
+{
+    padding-left: 0%;
+    font-size: 19px;
+    text-decoration: none;
+    color: rgb(39, 74, 179);
+}
+#usefullinksheader
+{
+    color: black;
+    text-shadow: 6px 4px 30px darkblue;
+}
+#usefullinkslist
+{
+    line-height: 50px;
+    font-size: 17px;
+    font-family: arial,sans-serif;
+    font-weight: bold;
+    letter-spacing: 0px;
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 1px solid black;
+}
+#usefullinkslist li a
+{
+    text-decoration: none;
+    color: darkslateblue;
+}
+#usefullinkslist li a:visited
+{
+    text-decoration: none;
+    color: darkslateblue;
+}
+#newsheader1
+{
+    color: mediumvioletred;
+    margin-top: 30px;
+    font-size: 35px;
+    font-family: arial,sans-serif;
+    
+}
+#news1
+{
+    color: black;
+    text-shadow: 1px 0px 1px snow;
+    line-height: 30px;
+    font-size: 18px;
+    font-family: arial,sans-serif;
+    letter-spacing: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    
+}
+#newsimage1
+{
+    width: 100%;
+    height: 430px;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+#newsimage2
+{
+    width: 100%;
+    height: 430px;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+#newsmore
+{
+    display: none;
+}
+#readmoreButton
+{
+    font-size: 28px;
+    font-weight:bold;
+    color: black;
+}
+#readmoreButton:hover
+{
+    font-size: 28px;
+    font-weight:bold;
+    color: rgb(39, 74, 179);
+    text-shadow: 1px 1px 30px;
+    transition: 0.05s;
+    cursor: pointer;
+}
+#newsmore2
+{
+    display: none;
+}
+#readmoreButton2
+{
+    font-size: 28px;
+    font-weight:bold;
+    color: black;
+}
+#readmoreButton2:hover
+{
+    font-size: 28px;
+    font-weight:bold;
+    color: rgb(39, 74, 179);
+    text-shadow: 1px 1px 30px;
+    transition: 0.05s;
+    cursor: pointer;
+}
+#rightpart
+{
+    width: 25%;
+    direction: rtl;
+}
+#biographiheader 
+{
+    color: black;
+    text-shadow: 6px 4px 30px darkblue;
+}
+#myphoto
+{
+    width: 180px;
+    height: 180px;
+    border-radius: 100px;
+}
+#biographi
+{
+    
+    color: black;
+    text-shadow: 1px 0px 1px snow;
+    line-height: 30px;
+    font-size: 18px;
+    font-family: arial,sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 1px solid black;
+}
+#backhome
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(39, 74, 179);
+}
+#backhome:visited
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(39, 74, 179);
+}
+#connectionheader
+{
+    color: black;
+    text-shadow: 6px 4px 30px darkblue;
+}
+#connectioncontent
+{
+    color: black;
+    text-shadow: 1px 0px 1px snow;
+    line-height: 37px;
+    font-size: 18px;
+    font-family: tahoma,arial,sans-serif;
+    letter-spacing: 1px;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 1px solid black;
+}
+#emailorginal
+{
+    font-size: 18px;
+    color: darkslateblue;
+    font-family: tahoma,sans-serif;
+}
+#connectioncontent a
+{
+    text-decoration: none;
+    color: darkslateblue;
+}
+#connectioncontent a:visited
+{
+    text-decoration: none;
+    color: darkslateblue;
+}
+#connectioncontent2
+{
+    display:none;
+}
+.fa-envelope
+{
+    font-size: 40px;
+}
+.fa-github
+{
+    font-size: 40px;
+}
+.fa-instagram
+{
+    font-size: 45px;
+}
+.fa-telegram
+{
+    font-size: 42px;
+}
+.fa-linkedin-square
+{
+    font-size: 42px;
+}
+#educationheader
+{
+    color: black;
+    text-shadow: 6px 4px 30px darkblue;
+}
+#education
+{
+    color: black;
+    text-shadow: 1px 0px 1px snow;
+    line-height: 30px;
+    font-size: 17px;
+    font-family: arial,sans-serif;
+    font-weight: bold;
+    letter-spacing: 0px;
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 1px solid black;
+}
+#education li
+{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#payamenoorheader
+{
+    font-size: 22px;
+}
+#payamenoorlogo
+{
+    width: 110px;
+    height: 110px;
+    border-radius: 2px;
+}
+#sepehrheader
+{
+    font-size: 22px;
+}
+#sepehrlogo
+{
+    width: 110px;
+    height: 110px;
+    border-radius: 2px;
+}
+#farhangianheader
+{
+    font-size: 22px;
+}
+#farhangianlogo
+{
+    width: 110px;
+    height: 110px;
+    border-radius: 2px;
+}
+#booksheader
+{
+    color: black;
+    text-shadow: 6px 4px 30px darkblue;
+}
+#books
+{
+    color: black;
+    text-shadow: 1px 0px 1px snow;
+    line-height: 30px;
+    font-size: 17px;
+    font-family: arial,sans-serif;
+    font-weight: bold;
+    letter-spacing: 0px;
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 1px solid black;
+}
+#books li
+{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#arttherapyheader
+{
+    font-size: 22px;
+}
+#arttherapypic
+{
+    width: 240px;
+    height: 320px;
+    border-radius: 2px;
+}
+#arttherapydownloadlink
+{
+    display: block;
+    margin-top: 10px;
+}
+#downloadbutton1
+{
+    width: 170px;
+    height: 50px;
+}
+#gitlearningheader
+{
+    font-size: 22px;
+}
+#gitlearningpic
+{
+    width: 240px;
+    height: 320px;
+    border-radius: 2px;
+}
+#gitlearningdownloadlink
+{
+    display: block;
+    margin-top: 10px;
+}
+#downloadbutton2
+{
+    width: 170px;
+    height: 50px;
+}
+#skillsheader
+{
+    color: black;
+    text-shadow: 6px 4px 30px darkblue;
+}
+#skills
+{
+    color: black;
+    text-shadow: 1px 0px 1px snow;
+    line-height: 30px;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    font-weight: bold;
+    letter-spacing: 0px;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 1px solid black;
+}
+#skills li
+{
+    padding-top: 30px;
+}
+#li1
+{
+    padding-top: 40px !important;
+}
+#frontendheader
+{
+    font-size: 18px;
+}
+#courseraimage
+{
+    width: 100%;
+    height: 550px;
+    border-radius: 2px;
+}
+#pythonheader
+{
+    font-size: 18px;
+}
+#programminghubimage
+{
+    width: 100%;
+    height: 550px;
+    border-radius: 2px;
+}
+#icdlheader
+{
+    font-size: 18px;
+}
+#icdlimage
+{
+    width: 400px;
+    height: 530px;
+    border-radius: 2px;
+}
+#htmlheader
+{
+    font-size: 18px;
+}
+#html5header
+{
+    font-size: 18px;
+}
+#cssheader
+{
+    font-size:18px;
+}
+#cssflexboxheader
+{
+    font-size: 18px;
+}
+#javascriptheader
+{
+    font-size: 18px;
+}
+#reactjsheader
+{
+    font-size: 18px;
+}
+#figmaheader
+{
+    font-size: 18px;
+}
+#githeader
+{
+    font-size: 18px;
+}
+#li12
+{
+    padding-bottom: 40px !important;
+}
+#githubheader
+{
+    font-size: 18px;
+}
+#artsheader
+{
+    color: black;
+    text-shadow: 6px 4px 30px darkblue; 
+}
+#arts
+{
+    color: black;
+    text-shadow: 1px 0px 1px snow;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: arial,sans-serif;
+    letter-spacing: 0px;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 1px solid black;
+}
+#arts li
+{
+    padding-top: 30px;
+}
+#santour1
+{
+    width: 100%;
+    height: 450px;
+    border-radius: 2px;
+}
+#isfahan
+{
+    width: 100%;
+    height: 450px;
+    border-radius: 2px;
+}
+#santour2
+{
+    width: 100%;
+    height: 450px;
+    border-radius: 2px;
+}
+#sepehr1
+{
+    width: 100%;
+    height: 480px;
+    border-radius: 2px;
+}
+#sepehrname1
+{
+    font-size: 15px;
+    font-family: tahoma,arial,sans-serif;
+    font-weight: normal !important;
+    letter-spacing: 0px; 
+}
+#sepehr2
+{
+    width: 100%;
+    height: 480px;
+    border-radius: 2px;
+}
+#sepehrname2
+{
+    font-size: 15px;
+    font-family: tahoma,arial,sans-serif;
+    font-weight: normal !important;
+    letter-spacing: 0px; 
+}
+#motamedian1
+{
+    width: 70%;
+    height: 500px;
+    border-radius: 2px;  
+}
+#motamedianname
+{
+    font-size: 15px;
+    font-family: tahoma,arial,sans-serif;
+    font-weight: normal !important;
+    letter-spacing: 0px; 
+}
+#yunesi
+{
+    width: 70%;
+    height: 500px;
+    border-radius: 2px; 
+}
+#yunesiname
+{
+    font-size: 15px;
+    font-family: tahoma,arial,sans-serif;
+    font-weight: normal !important;
+    letter-spacing: 0px; 
+}
+#siamakaghaei1
+{
+    width: 75%;
+    height: 460px;
+    border-radius: 2px; 
+}
+#siamakname1
+{
+    font-size: 15px;
+    font-family: tahoma,arial,sans-serif;
+    font-weight: normal !important;
+    letter-spacing: 0px; 
+}
+#siamakaghaei2
+{
+    width: 90%;
+    height: 600px;
+    border-radius: 2px; 
+}
+#siamakname2
+{
+    font-size: 15px;
+    font-family: tahoma,arial,sans-serif;
+    font-weight: normal !important;
+    letter-spacing: 0px; 
+}
+#siamakaghaei3
+{
+    width: 45%;
+    height: 670px;
+    border-radius: 2px; 
+}
+#siamakname3
+{
+    font-size: 14px;
+    font-family: tahoma,arial,sans-serif;
+    font-weight: normal !important;
+    letter-spacing: 0px; 
+}
+#faryadbisedadetail
+{
+    font-size: 17px;
+    font-family: tahoma,arial,sans-serif;
+    font-weight: normal !important;
+    letter-spacing: 0px;
+}
+#faryadbisedaimg
+{
+    width: 100%;
+    height: 850px;
+    border-radius: 2px;
+}
+#faryadbisedamp3
+{
+    width: 65%;
+    height: 35px;
+}
+#faryadbisedadownloaddetail
+{
+    font-size: 17px;
+    font-family: tahoma,arial,sans-serif;
+    font-weight: normal !important;
+    letter-spacing: 0px;
+}
+#faryadbisedadownloadlink
+{
+    display: inline;
+    cursor: pointer;
+}
+#faryadbiseda_CopyRight
+{
+    display: block;
+    width: 100%;
+    height: 36px;
+    text-align: center;
+    padding: 3px;
+    font-size: 14px;
+    font-family: tahoma,arial,sans-serif;
+    letter-spacing: 1px;
+    line-height:17px;
+    background-color:red;
+    color: white;
+    border-radius: 4px 4px 4px 4px;
+    cursor: default;
+    opacity: -0.0025;
+}
+#downloadicon
+{
+    width: 70px;
+    height: 70px;
+}
+#interstellardetail
+{
+    font-size: 17px;
+    font-family: tahoma,arial,sans-serif;
+    font-weight: normal !important;
+    letter-spacing: 0px;
+}
+#interstellarimg
+{
+    width: 100%;
+    height: 890px;
+    border-radius: 2px;
+}
+#interstellardownloaddetail
+{
+    font-size: 17px;
+    font-family: tahoma,arial,sans-serif;
+    font-weight: normal !important;
+    letter-spacing: 0px;
+}
+#interstellardownloadlink
+{
+    display: inline;
+}
+#video1detail
+{
+    font-size: 17px;
+    font-family: tahoma,arial,sans-serif;
+    font-weight: normal !important;
+    letter-spacing: 0px;
+}
+#video1
+{
+    width:100% ;
+    height : 450px;
+}
+#leadenheartsdetail
+{
+    font-size: 17px;
+    font-family: tahoma,arial,sans-serif;
+    font-weight: normal !important;
+    letter-spacing: 0px;
+}
+#leadenheartsimg
+{
+    width: 100%;
+    height: 850px;
+    border-radius: 2px;
+}
+#leadenheartsmp3
+{
+    width: 65%;
+    height: 35px;
+}
+#leadenheartsdownloaddetail
+{
+    font-size: 17px;
+    font-family: tahoma,arial,sans-serif;
+    font-weight: normal !important;
+    letter-spacing: 0px;
+}
+#leadenheartsdownloadlink
+{
+    display: inline;
+    cursor: pointer;
+}
+#leadenhearts_CopyRight
+{
+    display: block;
+    width: 100%;
+    height: 36px;
+    text-align: center;
+    padding: 3px;
+    font-size: 14px;
+    font-family: tahoma,arial,sans-serif;
+    letter-spacing: 1px;
+    line-height:17px;
+    background-color:red;
+    color: white;
+    border-radius: 4px 4px 4px 4px;
+    cursor: default;
+    opacity: -0.0025;
+}
+#video2detail
+{
+    font-size: 17px;
+    font-family: tahoma,arial,sans-serif;
+    font-weight: normal !important;
+    letter-spacing: 0px;
+}
+#video2
+{
+    width:100% ;
+    height : 450px;
+}
+
+/*0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
+/*0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
+/*0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
+/*0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
+/*0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
+/*0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
+/*0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
+/*0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
+/*0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
+/*0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
+/*0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
+/*0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
+/*0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
+/*0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
+/*0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
+
+
+@media screen and (max-width:800px)
+{
+    body
+    {
+        margin: 0px;
+        background-image: url('backgroundresponsive.jpg');
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: none;
+    }
+    #container
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+        max-width: 100%;
+        min-height: 800px;
+    }
+    #leftpart
+    {
+        width: 14%;
+    }
+    #bar
+    {
+        display: none;
+    }
+    #mysidenav
+    {
+        display: none;
+    }
+    #content
+    {
+        width: 72%;
+        direction: ltr;
+        white-space: wrap;
+    }
+    #rightpart
+    {
+        width: 14%;
+    }
+    #header
+    {
+        float: left;
+        text-align: center;
+        margin-top: 75px;
+        width: 100%;
+        min-height: 35px;
+        border-bottom: none;
+    }
+    #header_inf
+    {
+        text-decoration: none;
+        color: black;
+        font-family: tahoma, Verdana,sans-serif;
+        font-size: 21px;
+        letter-spacing: -1px;
+        text-shadow: 6px 5px 30px dimgray;
+    }
+    #banner
+    {
+        text-decoration: none;
+        color: black;
+        font-family: "Times New Roman",tahoma, Verdana,sans-serif;
+        font-size: 32px;
+        font-weight: bold;
+        letter-spacing: -2px;
+        text-shadow: 6px 5px 30px dimgray;
+    }
+    #banner:hover
+    {
+        color: black;
+        text-shadow: 6px 5px 30px dimgray;
+    }
+    #banner:active
+    {
+        color: yellow;
+        text-shadow: 6px 5px 27px black;
+    }
+    #responsivebar
+    {
+        display: inline;
+    }
+    #responsivenav
+    {
+        display: block;
+    }
+    #responsivebar
+    {
+        position:fixed;
+        top: 2px;
+        left: 6px;
+        font-size: 39px;
+        color: black;
+        cursor: pointer;
+    }
+    #responsivemenuword
+    {
+        display: inline;
+        position:fixed;
+        top: 39px;
+        left: 7px;
+        font-size: 11px;
+        font-weight: bold;
+        font-family: tahoma;
+        color: black;
+        cursor: pointer;
+    }
+    #responsivenav
+    {
+        position: fixed;
+        top: 0px;
+        left: -100%;
+        width: 100%;
+        min-height: 755px;
+        background-color: rgb(35, 43, 43);
+        border-radius: 0px 0px 0px 0px;
+    }
+    #responsivenav a
+    {
+        
+        display: block;
+        text-align: center;
+        padding-top: 18px;
+        text-decoration: none;
+        font-size: 13px;
+        font-weight: bold;
+        font-family: arial,tahoma,sans-serif;
+        color: darkturquoise;
+        border-bottom: 0px solid rgb(40, 40, 40);
+    }
+    #responsivenav a:focus
+    {
+        background-color: rgb(35, 43, 43);
+    }
+    #responsivenav a:active
+    {
+        background-color: rgb(35, 43, 43);
+    }
+    #responsivenav a:visited
+    {
+        color: darkturquoise;
+    }
+    #closeresponsive
+    {
+        margin-left: 90%;
+        color: darkturquoise;
+        font-size: 18px;
+    }
+    #slides
+    {
+        clear: both;
+        width: 100%;
+        height: 240px;
+        margin-top:160px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    #slides img
+    {
+        width: 70%;
+        height:240px;
+        display: none;
+        border-radius: 2px;
+    }
+    #slides img:first-child
+    {
+        display: inline;
+    }
+    #usefullinks
+    {
+        padding-left: 15%;
+        color: rgb(39, 74, 179);
+        font-size: 9px;
+        font-family: sans-serif;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    #usefullinks:visited
+    {
+        color: rgb(39, 74, 179);
+    }
+    #usefullinksheader
+    {
+        color: black;
+        text-shadow: 6px 4px 30px darkblue;
+        font-size: 20px;
+        text-align: center;
+    }
+    #usefullinkslist
+    {
+        color: black;
+        text-shadow: 1px 0px 1px snow;
+        line-height: 35px;
+        font-size: 16px;
+        font-family: arial,"Times New Roman",sans-serif;
+        letter-spacing: 1px;
+        padding-top: 25px;
+        padding-left: 23px;
+        border: 1px solid black;
+    }
+    #usefullinkslist li a
+    {
+        text-decoration: none;
+    }
+    #usefullinkslist li a:visited
+    {
+        text-decoration: none;
+        color: darkslateblue;
+    }
+    #newsheader1
+    {
+        color: mediumvioletred;
+        margin-top: 40px;
+        font-size: 15px;
+        font-family: arial;
+    }
+    #news1
+    {
+        color: black;
+        text-shadow: 1px 0px 1px snow;
+        line-height: 30px;
+        font-size: 10px;
+        font-family: arial,sans-serif;
+        letter-spacing: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        
+    }
+    #newsimage1
+    {
+        width: 100%;
+        height: 270px;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    #newsimage2
+    {
+        width: 100%;
+        height: 270px;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    #newsmore
+    {
+        display: none;
+    }
+    #readmoreButton
+    {
+        font-size: 15px;
+        font-weight:bold;
+        color: black;
+    }
+    #readmoreButton:hover
+    {
+        font-size: 15px;
+        font-weight:bold;
+        color: black;
+    }
+    #newsmore2
+    {
+        display: none;
+    }
+    #readmoreButton2
+    {
+        font-size: 15px;
+        font-weight:bold;
+        color: black;
+    }
+    #readmoreButton2:hover
+    {
+        font-size: 15px;
+        font-weight:bold;
+        color: black;
+    }
+    #biographiheader 
+    {
+        color: black;
+        text-shadow: 6px 4px 30px darkblue;
+        font-size: 20px;
+        text-align: center;
+    }
+    #myphoto
+    {
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+    }
+    #biographi
+    {
+        
+        color: black;
+        text-shadow: 1px 0px 1px snow;
+        line-height: 30px;
+        font-size: 13px;
+        font-family: arial,sans-serif;
+        padding-left: 18px;
+        padding-right: 18px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        border: none;
+    }
+    #backhome
+    {
+        text-decoration: none;
+        font-size: 15px;
+        color: rgb(39, 74, 179);
+    }
+    #backhome:visited
+    {
+        text-decoration: none;
+        font-size: 15px;
+        color: rgb(39, 74, 179);
+    }
+    #educationheader
+    {
+        color: black;
+        text-shadow: 6px 4px 30px darkblue;
+        font-size: 20px;
+        text-align: center;
+    }
+    #education
+    {
+        color: black;
+        text-shadow: 1px 0px 1px snow;
+        line-height: 27px;
+        font-size: 10px;
+        font-family: arial,"Times New Roman",sans-serif;
+        letter-spacing: 0px;
+        padding-left: 18px;
+        padding-right: 18px;
+        padding-top: 0px;
+        border: none;
+
+    }
+    #education li
+    {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    #payamenoorheader
+    {
+        font-size: 13px;
+        font-family: arial,sans-serif;
+    }
+    #payamenoorlogo
+    {
+        width: 65px;
+        height: 65px;
+        border-radius: 2px;
+    }
+    #sepehrheader
+    {
+        font-size: 13px;
+        font-family: arial,sans-serif;
+    }
+    #sepehrlogo
+    {
+        width: 65px;
+        height: 65px;
+        border-radius: 2px;
+    }
+    #farhangianheader
+    {
+        font-size: 13px;
+        font-family: arial,sans-serif;
+    }
+    #farhangianlogo
+    {
+        width: 65px;
+        height: 65px;
+        border-radius: 2px;
+    }
+    #connectionheader
+    {
+        color: black;
+        text-shadow: 6px 4px 30px darkblue;
+        font-size: 20px;
+        text-align: center;
+    }
+    #connectioncontent
+    {
+        display: none;
+    }
+    #connectioncontent2
+    {
+        display: block;
+        color: black;
+        text-shadow: 1px 0px 1px snow;
+        line-height: 50px;
+        font-size: 11px;
+        font-weight: bold;
+        font-family: arial,sans-serif;
+        letter-spacing: 1px;
+        padding-left: 10px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        border: 1px solid black;
+    }
+    #email
+    {
+        font-size: 11px;
+        color: darkslateblue;
+        font-family: arial,sans-serif;
+    }
+    #connectioncontent2 a
+    {
+        text-decoration: none;
+        color: darkslateblue;
+    }
+    #connectioncontent2 a:visited
+    {
+        text-decoration: none;
+        color: darkslateblue;
+    }
+    .fa-envelope
+    {
+        font-size: 25px;
+    }
+    .fa-github
+    {
+        font-size: 25px;
+    }
+    .fa-instagram
+    {
+        font-size: 25px;
+    }
+    .fa-telegram
+    {
+        font-size: 25px;
+    }
+    .fa-linkedin-square
+    {
+        font-size: 25px;
+    }
+    #booksheader
+    {
+        color: black;
+        text-shadow: 6px 4px 30px darkblue;
+        font-size: 20px;
+        text-align: center;
+    }
+    #books
+    {
+        color: black;
+        text-shadow: 1px 0px 1px snow;
+        line-height: 27px;
+        font-size: 10px;
+        font-family: arial,"Times New Roman",sans-serif;
+        letter-spacing: 0px;
+        padding-left: 18px;
+        padding-right: 18px;
+        padding-top: 0px;
+        border: none;
+    }
+    #books li
+    {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    #arttherapyheader
+    {
+        font-size: 13px;
+        font-family: arial,sans-serif;
+    }
+    #arttherapypic
+    {
+        width: 130px;
+        height: 180px;
+        border-radius: 2px;
+    }
+    #arttherapydownloadlink
+    {
+        display: block;
+        margin-top: 10px;
+    }
+    #downloadbutton1
+    {
+        width: 125px;
+        height: 40px;
+    }
+    #gitlearningheader
+    {
+        font-size: 13px;
+        font-family: arial,sans-serif;
+    }
+    #gitlearningpic
+    {
+        width: 130px;
+        height: 180px;
+        border-radius: 2px;
+    }
+    #gitlearningdownloadlink
+    {
+        display: block;
+        margin-top: 10px;
+    }
+    #downloadbutton2
+    {
+        width: 125px;
+        height: 40px;
+    }
+    #skillsheader
+    {
+        color: black;
+        text-shadow: 6px 4px 30px darkblue;
+        font-size: 20px;
+        text-align: center;
+    }
+    #skills
+    {
+        color: black;
+        text-shadow: 1px 0px 1px snow;
+        line-height: 27px;
+        font-size: 10px;
+        font-family: arial,"Times New Roman",sans-serif;
+        letter-spacing: 0px;
+        padding-left: 7%;
+        padding-right: 7%;
+        padding-top: 0px;
+        border: none;
+    }
+    #skills li
+    {
+        padding-top: 1px;
+    }
+    #li1
+    {
+        padding-top: 40px !important;
+    }
+    #frontendheader
+    {
+        font-size: 12px;
+        font-family: arial,sans-serif;
+    }
+    #courseraimage
+    {
+        width: 100%;
+        height: 290px;
+        border-radius: 2px;
+    }
+    #pythonheader
+    {
+        font-size: 12px;
+        font-family: arial,sans-serif;
+    }
+    #programminghubimage
+    {
+        width: 100%;
+        height: 290px;
+        border-radius: 2px;
+    }
+    #icdlheader
+    {
+        font-size: 12px;
+        font-family: arial,sans-serif;
+    }
+    #icdlimage
+    {
+        width: 115px;
+        height: 160px;
+        border-radius: 2px;
+    }
+    #htmlheader
+    {
+        font-size: 12px;
+        font-family: arial,sans-serif;
+    }
+    #html5header
+    {
+        font-size: 12px;
+        font-family: arial,sans-serif;
+    }
+    #cssheader
+    {
+        font-size: 12px;
+        font-family: arial,sans-serif;
+    }
+    #cssflexboxheader
+    {
+        font-size: 12px;
+        font-family: arial,sans-serif;
+    }
+    #javascriptheader
+    {
+        font-size: 12px;
+        font-family: arial,sans-serif;
+    }
+    #reactjsheader
+    {
+        font-size: 12px;
+        font-family: arial,sans-serif;
+    }
+    #figmaheader
+    {
+        font-size: 12px;
+        font-family: arial,sans-serif;
+    }
+    #githeader
+    {
+        font-size: 12px;
+        font-family: arial,sans-serif;
+    }
+    #li12
+    {
+        padding-bottom: 12px !important;
+    }
+    #githubheader
+    {
+        font-size: 12px;
+        font-family: arial,sans-serif;
+    }
+    #faryadbiseda_CopyRight
+    {
+        display: block;
+        width: 100%;
+        height: 25px;
+        text-align: center;
+        padding-top: 0px;
+        font-size: 24px;
+        font-family: arial,sans-serif;
+        letter-spacing: 0px;
+        background-color:red;
+        color: white;
+        border-radius: 4px 4px 4px 4px;
+        cursor: default;
+        opacity: -0.0025;
+    }
+}
+
+
+/*0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
+/*0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
+/*0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
+/*0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
+/*0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
+/*0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
+/*0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
+/*0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
+/*0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
+/*0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
+/*0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
+/*0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
+/*0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
+/*0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
+/*0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
+
+
+
+@media screen and (max-width:480px)
+{
+    body
+    {
+        margin: 0px;
+        background-image: url('backgroundresponsive.jpg');
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: none;
+    }
+    #container
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+        max-width: 100%;
+        min-height: 800px;
+    }
+    #leftpart
+    {
+        width: 12%;
+    }
+    #bar
+    {
+        display: none;
+    }
+    #mysidenav
+    {
+        display: none;
+    }
+    #content
+    {
+        width: 76%;
+        direction: ltr;
+        white-space: wrap;
+    }
+    #rightpart
+    {
+        width: 12%;
+    }
+    #header
+    {
+        float: left;
+        text-align: center;
+        margin-top: 75px;
+        width: 100%;
+        min-height: 35px;
+        border-bottom: none;
+    }
+    #header_inf
+    {
+        text-decoration: none;
+        color: black;
+        font-family: tahoma, Verdana,sans-serif;
+        font-size: 9px;
+        letter-spacing: -1px;
+        text-shadow: 6px 5px 30px dimgray;
+    }
+    #banner
+    {
+        text-decoration: none;
+        color: black;
+        font-family: "Times New Roman",tahoma, Verdana,sans-serif;
+        font-size: 28px;
+        font-weight: bold;
+        letter-spacing: -2px;
+        text-shadow: 6px 5px 30px dimgray;
+    }
+    #banner:hover
+    {
+        color: black;
+        text-shadow: 6px 5px 30px dimgray;
+    }
+    #banner:active
+    {
+        color: yellow;
+        text-shadow: 6px 5px 27px black;
+    }
+    #responsivebar
+    {
+        display: inline;
+    }
+    #responsivenav
+    {
+        display: block;
+    }
+    #responsivebar
+    {
+        position:fixed;
+        top: 2px;
+        left: 6px;
+        font-size: 35px;
+        color: black;
+        cursor: pointer;
+    }
+    #responsivemenuword
+    {
+        display: inline;
+        position:fixed;
+        top: 35px;
+        left: 7px;
+        font-size: 10px;
+        font-weight: bold;
+        font-family: tahoma;
+        color: black;
+        cursor: pointer;
+    }
+    #responsivenav
+    {
+        position: fixed;
+        top: 0px;
+        left: -100%;
+        width: 100%;
+        min-height: 755px;
+        background-color: rgb(35, 43, 43);
+        border-radius: 0px 0px 0px 0px;
+        z-index: 1;
+    }
+    #responsivenav a
+    {
+        
+        display: block;
+        text-align: center;
+        padding-top: 32px;
+        text-decoration: none;
+        font-size: 17px;
+        font-weight: bold;
+        font-family: arial,tahoma,sans-serif;
+        color: darkturquoise;
+        border-bottom: 0px solid rgb(40, 40, 40);
+    }
+    #responsivenav a:focus
+    {
+        background-color: rgb(35, 43, 43);
+    }
+    #responsivenav a:active
+    {
+        background-color: rgb(35, 43, 43);
+    }
+    #responsivenav a:visited
+    {
+        color: darkturquoise;
+    }
+    #closeresponsive
+    {
+        margin-left: 82%;
+        color: darkturquoise;
+        font-size: 25px;
+    }
+    #slides
+    {
+        clear: both;
+        width: 100%;
+        height:250px;
+        margin-top: 140px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 2px;
+        padding-left: 0%;
+        padding-right: 0%;
+        
+    }
+    #slides img
+    {
+        width: 100%;
+        height:250px;
+        display: none;
+    }
+    #slides img:first-child
+    {
+        display: inline;
+    }
+    #usefullinks
+    {
+        padding-left: 0px;
+        font-size: 9px;
+        font-family: arial,sans-serif;
+        font-weight: bold;
+        text-decoration: none;
+        color: rgb(39, 74, 179);
+    }
+    #usefullinks:visited
+    {
+        color: rgb(39, 74, 179);
+    }
+    #usefullinksheader
+    {
+        color: black;
+        text-shadow: 6px 4px 30px darkblue;
+        font-size: 20px;
+        text-align: center;
+    }
+    #usefullinkslist
+    {
+        color: black;
+        text-shadow: 1px 0px 1px snow;
+        line-height: 34px;
+        font-size: 11px;
+        font-family: arial,"Times New Roman",sans-serif;
+        letter-spacing: 1px;
+        padding-top: 25px;
+        padding-left: 23px;
+        border: 1px solid black;
+    }
+    #usefullinkslist li a
+    {
+        text-decoration: none;
+        color: darkslateblue;
+    }
+    #usefullinkslist li a:visited
+    {
+        text-decoration: none;
+        color: darkslateblue;
+    }
+    #newsheader1
+    {
+        color: mediumvioletred;
+        margin-top: 40px;
+        font-size: 15px;
+        font-family: arial;
+    }
+    #news1
+    {
+        color: black;
+        text-shadow: 1px 0px 1px snow;
+        line-height: 30px;
+        font-size: 10px;
+        font-family: arial,sans-serif;
+        letter-spacing: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        
+    }
+    #newsimage1
+    {
+        width: 100%;
+        height: 250px;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    #newsimage2
+    {
+        width: 100%;
+        height: 250px;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    #newsmore
+    {
+        display: none;
+    }
+    #readmoreButton
+    {
+        font-size: 15px;
+        font-weight:bold;
+        color: black;
+    }
+    #readmoreButton:hover
+    {
+        font-size: 15px;
+        font-weight:bold;
+        color: black;
+    }
+    #newsmore2
+    {
+        display: none;
+    }
+    #readmoreButton2
+    {
+        font-size: 15px;
+        font-weight:bold;
+        color: black;
+    }
+    #readmoreButton2:hover
+    {
+        font-size: 15px;
+        font-weight:bold;
+        color: black;
+    }
+    #biographiheader 
+    {
+        color: black;
+        text-shadow: 6px 4px 30px darkblue;
+        font-size: 20px;
+        text-align: center;
+    }
+    #myphoto
+    {
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+    }
+    #biographi
+    {
+        
+        color: black;
+        text-shadow: 1px 0px 1px snow;
+        line-height: 30px;
+        font-size: 13px;
+        font-family: arial,sans-serif;
+        padding-left: 18px;
+        padding-right: 18px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        border: none;
+    }
+    #backhome
+    {
+        text-decoration: none;
+        font-size: 15px;
+        color: rgb(39, 74, 179);
+    }
+    #backhome:visited
+    {
+        text-decoration: none;
+        font-size: 15px;
+        color: rgb(39, 74, 179);
+    }
+    #educationheader
+    {
+        color: black;
+        text-shadow: 6px 4px 30px darkblue;
+        font-size: 20px;
+        text-align: center;
+    }
+    #education
+    {
+        color: black;
+        text-shadow: 1px 0px 1px snow;
+        line-height: 27px;
+        font-size: 10px;
+        font-family: arial,"Times New Roman",sans-serif;
+        letter-spacing: 0px;
+        padding-left: 18px;
+        padding-right: 18px;
+        padding-top: 0px;
+        border: none;
+
+    }
+    #education li
+    {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    #payamenoorheader
+    {
+        font-size: 13px;
+        font-family: arial,sans-serif;
+    }
+    #payamenoorlogo
+    {
+        width: 65px;
+        height: 65px;
+        border-radius: 2px;
+    }
+    #sepehrheader
+    {
+        font-size: 13px;
+        font-family: arial,sans-serif;
+    }
+    #sepehrlogo
+    {
+        width: 65px;
+        height: 65px;
+        border-radius: 2px;
+    }
+    #farhangianheader
+    {
+        font-size: 13px;
+        font-family: arial,sans-serif;
+    }
+    #farhangianlogo
+    {
+        width: 65px;
+        height: 65px;
+        border-radius: 2px;
+    }
+    #connectionheader
+    {
+        color: black;
+        text-shadow: 6px 4px 30px darkblue;
+        font-size: 20px;
+        text-align: center;
+    }
+    #connectioncontent
+    {
+        display: none;
+    }
+    #connectioncontent2
+    {
+        display: block;
+        color: black;
+        text-shadow: 1px 0px 1px snow;
+        line-height: 50px;
+        font-size: 11px;
+        font-weight: bold;
+        font-family: arial,sans-serif;
+        letter-spacing: 1px;
+        padding-left: 10px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        border: 1px solid black;
+    }
+    #email
+    {
+        font-size: 11px;
+        color: darkslateblue;
+        font-family: arial,sans-serif;
+    }
+    #connectioncontent2 a
+    {
+        text-decoration: none;
+        color: darkslateblue;
+    }
+    #connectioncontent2 a:visited
+    {
+        text-decoration: none;
+        color: darkslateblue;
+    }
+    .fa-envelope
+    {
+        font-size: 25px;
+    }
+    .fa-github
+    {
+        font-size: 25px;
+    }
+    .fa-instagram
+    {
+        font-size: 25px;
+    }
+    .fa-telegram
+    {
+        font-size: 25px;
+    }
+    .fa-linkedin-square
+    {
+        font-size: 25px;
+    }
+    #booksheader
+    {
+        color: black;
+        text-shadow: 6px 4px 30px darkblue;
+        font-size: 20px;
+        text-align: center;
+    }
+    #books
+    {
+        color: black;
+        text-shadow: 1px 0px 1px snow;
+        line-height: 27px;
+        font-size: 10px;
+        font-family: arial,"Times New Roman",sans-serif;
+        letter-spacing: 0px;
+        padding-left: 18px;
+        padding-right: 18px;
+        padding-top: 0px;
+        border: none;
+    }
+    #books li
+    {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    #arttherapyheader
+    {
+        font-size: 13px;
+        font-family: arial,sans-serif;
+    }
+    #arttherapypic
+    {
+        width: 130px;
+        height: 180px;
+        border-radius: 2px;
+    }
+    #arttherapydownloadlink
+    {
+        display: block;
+        margin-top: 10px;
+    }
+    #downloadbutton1
+    {
+        width: 125px;
+        height: 40px;
+    }
+    #gitlearningheader
+    {
+        font-size: 13px;
+        font-family: arial,sans-serif;
+    }
+    #gitlearningpic
+    {
+        width: 130px;
+        height: 180px;
+        border-radius: 2px;
+    }
+    #gitlearningdownloadlink
+    {
+        display: block;
+        margin-top: 10px;
+    }
+    #downloadbutton2
+    {
+        width: 125px;
+        height: 40px;
+    }
+    #skillsheader
+    {
+        color: black;
+        text-shadow: 6px 4px 30px darkblue;
+        font-size: 20px;
+        text-align: center;
+    }
+    #skills
+    {
+        color: black;
+        text-shadow: 1px 0px 1px snow;
+        line-height: 27px;
+        font-size: 10px;
+        font-family: arial,"Times New Roman",sans-serif;
+        letter-spacing: 0px;
+        padding-left: 7%;
+        padding-right: 7%;
+        padding-top: 0px;
+        border: none;
+    }
+    #skills li
+    {
+        padding-top: 1px;
+    }
+    #li1
+    {
+        padding-top: 40px !important;
+    }
+    #frontendheader
+    {
+        font-size: 12px;
+        font-family: arial,sans-serif;
+    }
+    #courseraimage
+    {
+        width: 100%;
+        height: 160px;
+        border-radius: 2px;
+    }
+    #pythonheader
+    {
+        font-size: 12px;
+        font-family: arial,sans-serif;
+    }
+    #programminghubimage
+    {
+        width: 100%;
+        height: 160px;
+        border-radius: 2px;
+    }
+    #icdlheader
+    {
+        font-size: 12px;
+        font-family: arial,sans-serif;
+    }
+    #icdlimage
+    {
+        width: 115px;
+        height: 160px;
+        border-radius: 2px;
+    }
+    #htmlheader
+    {
+        font-size: 12px;
+        font-family: arial,sans-serif;
+    }
+    #html5header
+    {
+        font-size: 12px;
+        font-family: arial,sans-serif;
+    }
+    #cssheader
+    {
+        font-size: 12px;
+        font-family: arial,sans-serif;
+    }
+    #cssflexboxheader
+    {
+        font-size: 12px;
+        font-family: arial,sans-serif;
+    }
+    #javascriptheader
+    {
+        font-size: 12px;
+        font-family: arial,sans-serif;
+    }
+    #reactjsheader
+    {
+        font-size: 12px;
+        font-family: arial,sans-serif;
+    }
+    #figmaheader
+    {
+        font-size: 12px;
+        font-family: arial,sans-serif;
+    }
+    #githeader
+    {
+        font-size: 12px;
+        font-family: arial,sans-serif;
+    }
+    #li12
+    {
+        padding-bottom: 12px !important;
+    }
+    #githubheader
+    {
+        font-size: 12px;
+        font-family: arial,sans-serif;
+    }
+    #artsheader
+    {
+        color: black;
+        text-shadow: 6px 4px 30px darkblue;
+        font-size: 20px;
+        text-align: center; 
+    }
+    #arts
+    {
+        color: black;
+        text-shadow: 1px 0px 1px snow;
+        line-height: 27px;
+        font-size: 15px;
+        font-family: arial,"Times New Roman",sans-serif;
+        letter-spacing: 0px;
+        padding-left: 7%;
+        padding-right: 7%;
+        padding-top: 0px;
+        border: none;
+    }
+    #arts li
+    {
+        padding-top: 30px;
+    }
+    #santour1
+    {
+        width: 100%;
+        height: 160px;
+        border-radius: 2px;
+    }
+    #isfahan
+    {
+        width: 100%;
+        height: 160px;
+        border-radius: 2px;
+    }
+    #santour2
+    {
+        width: 100%;
+        height: 160px;
+        border-radius: 2px;
+    }
+    #sepehr1
+    {
+        width: 100%;
+        height: 160px;
+        border-radius: 2px;
+    }
+    #sepehrname1
+    {
+        font-size: 10px;
+        font-family: tahoma,arial,sans-serif;
+        font-weight: normal !important;
+        letter-spacing: 0px; 
+    }
+    #sepehr2
+    {
+        width: 100%;
+        height: 160px;
+        border-radius: 2px;
+    }
+    #sepehrname2
+    {
+        font-size: 10px;
+        font-family: tahoma,arial,sans-serif;
+        font-weight: normal !important;
+        letter-spacing: 0px; 
+    }
+    #motamedian1
+    {
+        width: 100%;
+        height: 220px;
+        border-radius: 2px;  
+    }
+    #motamedianname
+    {
+        font-size: 10px;
+        font-family: tahoma,arial,sans-serif;
+        font-weight: normal !important;
+        letter-spacing: 0px; 
+    }
+    #yunesi
+    {
+        width: 100%;
+        height: 230px;
+        border-radius: 2px; 
+    }
+    #yunesiname
+    {
+        font-size: 10px;
+        font-family: tahoma,arial,sans-serif;
+        font-weight: normal !important;
+        letter-spacing: 0px; 
+    }
+    #siamakaghaei1
+    {
+        width: 100%;
+        height: 210px;
+        border-radius: 2px; 
+    }
+    #siamakname1
+    {
+        font-size: 10px;
+        font-family: tahoma,arial,sans-serif;
+        font-weight: normal !important;
+        letter-spacing: 0px; 
+    }
+    #siamakaghaei2
+    {
+        width: 100%;
+        height: 230px;
+        border-radius: 2px; 
+    }
+    #siamakname2
+    {
+        font-size: 10px;
+        font-family: tahoma,arial,sans-serif;
+        font-weight: normal !important;
+        letter-spacing: 0px; 
+    }
+    #siamakaghaei3
+    {
+        width: 100%;
+        height: 500px;
+        border-radius: 2px; 
+    }
+    #siamakname3
+    {
+        font-size: 10px;
+        font-family: tahoma,arial,sans-serif;
+        font-weight: normal !important;
+        letter-spacing: 0px; 
+    }
+    #faryadbisedadetail
+    {
+        font-size: 15px;
+        font-family: tahoma,arial,sans-serif;
+        font-weight: normal !important;
+        letter-spacing: 0px;
+    }
+    #faryadbisedaimg
+    {
+        width: 100%;
+        height: 350px;
+        border-radius: 2px;
+    }
+    #faryadbisedamp3
+    {
+        width: 100%;
+        height:27px;
+        position: relative;
+        z-index: 0;
+    }
+    #faryadbisedadownloaddetail
+    {
+        font-size: 12px;
+        font-family: tahoma,arial,sans-serif;
+        font-weight: normal !important;
+        letter-spacing: 0px;
+    }
+    #faryadbisedadownloadlink
+    {
+        display: inline;
+    }
+    #downloadicon
+    {
+        width: 45px;
+        height: 45px;
+    }
+    #faryadbiseda_CopyRight
+    {
+        display: block;
+        width: 100%;
+        height: 36px;
+        text-align: center;
+        padding: 3px;
+        font-size: 12px;
+        font-family: tahoma,arial,sans-serif;
+        letter-spacing: 0px;
+        line-height:17px;
+        background-color:red;
+        color: white;
+        border-radius: 4px 4px 4px 4px;
+        cursor: default;
+        opacity: -0.0025;
+    }
+    #interstellardetail
+    {
+        font-size: 15px;
+        font-family: tahoma,arial,sans-serif;
+        font-weight: normal !important;
+        letter-spacing: 0px;
+    }
+    #interstellarimg
+    {
+        width: 100%;
+        height: 350px;
+        border-radius: 2px;
+    }
+    #interstellardownloaddetail
+    {
+        font-size: 12px;
+        font-family: tahoma,arial,sans-serif;
+        font-weight: normal !important;
+        letter-spacing: 0px;
+    }
+    #interstellardownloadlink
+    {
+        display: inline;
+    }
+    #video1detail
+    {
+        font-size: 15px;
+        font-family: tahoma,arial,sans-serif;
+        font-weight: normal !important;
+        letter-spacing: 0px;
+    }
+    #video1
+    {
+        width: 100% ;
+        height: 400px;
+        position: relative;
+        z-index: 0;
+    }
+    #leadenheartsdetail
+    {
+        font-size: 15px;
+        font-family: tahoma,arial,sans-serif;
+        font-weight: normal !important;
+        letter-spacing: 0px;
+    }
+    #leadenheartsimg
+    {
+        width: 100%;
+        height: 350px;
+        border-radius: 2px;
+    }
+    #leadenheartsmp3
+    {
+        width: 100%;
+        height:27px;
+        position: relative;
+        z-index: 0;
+    }
+    #leadenheartsdownloaddetail
+    {
+        font-size: 12px;
+        font-family: tahoma,arial,sans-serif;
+        font-weight: normal !important;
+        letter-spacing: 0px;
+    }
+    #leadenheartsdownloadlink
+    {
+        display: inline;
+    }
+    #leadenhearts_CopyRight
+    {
+        display: block;
+        width: 100%;
+        height: 36px;
+        text-align: center;
+        padding: 3px;
+        font-size: 12px;
+        font-family: tahoma,arial,sans-serif;
+        letter-spacing: 0px;
+        line-height:17px;
+        background-color:red;
+        color: white;
+        border-radius: 4px 4px 4px 4px;
+        cursor: default;
+        opacity: -0.0025;
+    }
+    #video2detail
+    {
+        font-size: 15px;
+        font-family: tahoma,arial,sans-serif;
+        font-weight: normal !important;
+        letter-spacing: 0px;
+    }
+    #video2
+    {
+        width: 100% ;
+        height: 400px;
+        position: relative;
+        z-index: 0;
+    }
+}
