@@ -430,6 +430,48 @@ body
     height: 110px;
     border-radius: 2px;
 }
+#researchheader
+{
+    color: black;
+    text-shadow: 6px 4px 30px darkblue; 
+}
+#research
+{
+    color: black;
+    text-shadow: 1px 0px 1px snow;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: arial,sans-serif;
+    letter-spacing: 0px;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 1px solid black;
+}
+#research li
+{
+    padding-top: 30px;
+    font-family: arial,sans-serif;
+    font-weight: bold;
+}
+#augmentedrealityabstractheader
+{
+    font-family: arial,sans-serif;
+    font-weight: bold;
+}
+#augmentedrealitydownload
+{
+    font-size: 17px;
+    font-family: tahoma,arial,sans-serif;
+    font-weight: normal !important;
+    letter-spacing: 0px;
+}
+#augmentedrealitydownloadlink
+{
+    display: inline;
+    cursor: pointer;
+}
 #booksheader
 {
     color: black;
