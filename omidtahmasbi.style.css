@@ -1964,6 +1964,41 @@ body
         height: 65px;
         border-radius: 2px;
     }
+    #researchheader
+    {
+        color: black;
+        text-shadow: 6px 4px 30px darkblue;
+        font-size: 20px;
+        text-align: center; 
+    }
+    #research
+    {
+        color: black;
+        text-shadow: 1px 0px 1px snow;
+        line-height: 27px;
+        font-size: 15px;
+        font-family: arial,"Times New Roman",sans-serif;
+        letter-spacing: 0px;
+        padding-left: 7%;
+        padding-right: 7%;
+        padding-top: 0px;
+        border: none;
+    }
+    #research li
+    {
+        padding-top: 30px;
+    }
+    #augmentedrealitydownload
+    {
+        font-size: 12px;
+        font-family: tahoma,arial,sans-serif;
+        font-weight: normal !important;
+        letter-spacing: 0px;
+    }
+    #augmentedrealitydownloadlink
+    {
+        display: inline;
+    }
     #connectionheader
     {
         color: black;
